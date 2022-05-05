@@ -7,7 +7,7 @@ class ViewController: UIViewController {
     }
   
     func changeColor() {
-        view.backgroundColor = .systemRed
+        view.backgroundColor = .red
     }
   
 }
