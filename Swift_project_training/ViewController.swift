@@ -7,7 +7,7 @@ class ViewController: UIViewController {
     }
   
     func setupView() {
-        view.backgroundColor = .orange
+        view.backgroundColor = .red
     }
   
     func setupHierarchy() {
