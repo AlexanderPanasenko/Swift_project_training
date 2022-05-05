@@ -6,9 +6,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
   
-    func changeColor() {
-        view.backgroundColor = .red
+    func setupView() {
+        view.backgroundColor = .systemRed
     }
   
+    func setupHieratchy() {
+        let newView = UIView()
+        view.addSubview(newView)
+    }
 }
 
